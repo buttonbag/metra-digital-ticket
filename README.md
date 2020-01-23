@@ -1,1 +1,2 @@
 # metra-digital-ticket
+wanted to see if I can recreate the digital ticket that Metra railway uses. It has a nice vector graphic that changes colors when the user taps on their phone screens. The colors are randomly generated and the graphic is animated as well.
