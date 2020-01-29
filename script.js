@@ -21,9 +21,14 @@ function changeColor() {
             console.log('narrow', c1, c2, c3);
         }
         
-        document.documentElement.style.setProperty(`--c1`, c1);
-        document.documentElement.style.setProperty(`--c2`, c2);
-        document.documentElement.style.setProperty(`--c3`, c3);    
+        for (let i = 0; i < 3; i++) {
+            document.documentElement.style.setProperty(`--c[i]`, c[i]);
+            // const element = array[i];            
+        }
+
+        // document.documentElement.style.setProperty(`--c1`, c1);
+        // document.documentElement.style.setProperty(`--c2`, c2);
+        // document.documentElement.style.setProperty(`--c3`, c3);    
     }
     
     function secondaryColor() {
